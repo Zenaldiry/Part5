@@ -29,7 +29,7 @@ Component Tests (inside the frontend )
 Bash
 cd bloglist-frontend
 npm test
-```
+
 
 **End-to-End Tests (Playwright)**
 (Make sure the backend and frontend are running first and you should run the backend with npm run start:test)
@@ -37,3 +37,4 @@ Bash
 cd e2e-tests-playwright
 npm install
 npx playwright test
+```
